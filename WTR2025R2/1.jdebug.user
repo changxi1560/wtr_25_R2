@@ -1,0 +1,58 @@
+
+
+GraphedExpression="((myMotor1).data).T", Color=#e56a6f
+GraphedExpression="((myMotor0).data).T", Color=#35792b
+GraphedExpression="(throwhsm).throwstate", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#769dda, Show=0
+GraphedExpression="(throwhsm).wholestate", DisplayFormat=DISPLAY_FORMAT_DEC, Color=#b14f0d, Show=0
+GraphedExpression="(data).angle", Color=#b3c38e
+GraphedExpression="((rmctl).rmctl_msg).left_x", Color=#ab7b05, Show=0
+OpenDocument="DJI.c", FilePath="f:/RC/WTR2025R2/usercode/lib/dji_motor/DJI.c", Line=113
+OpenDocument="startup_stm32f427xx.s", FilePath="f:/RC/WTR2025R2/startup_stm32f427xx.s", Line=51
+OpenDocument="main.c", FilePath="f:/RC/WTR2025R2/Core/Src/main.c", Line=67
+OpenDocument="AllUserTask.c", FilePath="f:/RC/WTR2025R2/usercode/task/AllUserTask.c", Line=94
+OpenDocument="rmctl.c", FilePath="f:/RC/WTR2025R2/usercode/hold/rmctl.c", Line=0
+OpenDocument="CommunicationTask.c", FilePath="f:/RC/WTR2025R2/usercode/task/CommunicationTask.c", Line=136
+OpenDocument="tasks.c", FilePath="f:/RC/WTR2025R2/Middlewares/Third_Party/FreeRTOS/Source/tasks.c", Line=3640
+OpenDocument="stm32f4xx_hal_uart.c", FilePath="f:/RC/WTR2025R2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.c", Line=3206
+OpenDocument="ThrowTask.c", FilePath="f:/RC/WTR2025R2/usercode/task/ThrowTask.c", Line=75
+OpenDocument="ThrowHSMTask.c", FilePath="f:/RC/WTR2025R2/usercode/task/ThrowHSMTask.c", Line=42
+OpenDocument="stm32f4xx_hal_can.c", FilePath="f:/RC/WTR2025R2/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c", Line=1406
+OpenToolbar="Debug", Floating=1, x=157, y=0
+OpenWindow="Registers 1", DockArea=RIGHT, x=0, y=4, w=407, h=138, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, FilteredItems=[], RefreshRate=1
+OpenWindow="Source Files", DockArea=LEFT, x=0, y=1, w=894, h=172, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Disassembly", DockArea=RIGHT, x=0, y=0, w=407, h=162, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Global Data", DockArea=RIGHT, x=0, y=1, w=407, h=161, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Local Data", DockArea=RIGHT, x=0, y=2, w=407, h=161, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Watched Data 1", DockArea=LEFT, x=0, y=2, w=894, h=403, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Functions", DockArea=LEFT, x=0, y=0, w=894, h=171, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+OpenWindow="Data Sampling", DockArea=BOTTOM, x=1, y=0, w=1480, h=539, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0, VisibleTab=0, UniformSampleSpacing=0
+OpenWindow="Timeline", DockArea=BOTTOM, x=0, y=0, w=1079, h=539, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=1, DataPaneShown=1, PowerPaneShown=0, CodePaneShown=0, PinCursor="Cursor Movable", TimePerDiv="100 ms / Div", TimeStampFormat="Time", DataGraphDrawAsPoints=0, DataGraphLegendShown=1, DataGraphUniformSampleSpacing=0, DataGraphLegendPosition="701;0", DataGraphShowNamesAtCursor=0, PowerGraphDrawAsPoints=0, PowerGraphLegendShown=0, PowerGraphAvgFilterTime=Off, PowerGraphAvgFilterLen=Off, PowerGraphUniformSampleSpacing=0, PowerGraphLegendPosition="849;-69", CodeGraphLegendShown=0, CodeGraphLegendPosition="865;0"
+OpenWindow="Find Results", DockArea=RIGHT, x=0, y=3, w=407, h=122, FilterBarShown=0, TotalValueBarShown=0, ToolBarShown=0
+SmartViewPlugin="", Page="", Toolbar="Hidden", Window="SmartView 1"
+TableHeader="Global Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[100;100;102;100;100;366]
+TableHeader="Local Data", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Location";"Size";"Type";"Scope"], ColWidths=[100;100;134;100;284;100]
+TableHeader="Functions", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Address";"Size";"#Insts";"Source"], ColWidths=[1634;104;100;100;382]
+TableHeader="Source Files", SortCol="File", SortOrder="ASCENDING", VisibleCols=["File";"Status";"Size";"#Insts";"Path"], ColWidths=[407;100;100;100;822]
+TableHeader="Data Sampling Table", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";" ((myMotor1).data).T";" ((myMotor0).data).T";" (throwhsm).throwstate";" (throwhsm).wholestate";" (data).angle";" ((rmctl).rmctl_msg).left_x"], ColWidths=[100;100;100;100;100;100;100;100]
+TableHeader="Data Sampling Setup", SortCol="Value", SortOrder="ASCENDING", VisibleCols=["Expression";"Type";"Value";"Min";"Max";"Average";"# Changes";"Min. Change";"Max. Change"], ColWidths=[246;164;100;154;164;100;110;126;316]
+TableHeader="Power Sampling", SortCol="None", SortOrder="ASCENDING", VisibleCols=["Index";"Time";"Ch 0"], ColWidths=[100;100;100]
+TableHeader="Registers 1", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Description"], ColWidths=[100;144;294]
+TableHeader="Watched Data 1", SortCol="Expression", SortOrder="ASCENDING", VisibleCols=["Expression";"Value";"Location";"Refresh"], ColWidths=[246;197;162;263]
+TableHeader="RegisterSelectionDialog", SortCol="None", SortOrder="ASCENDING", VisibleCols=[], ColWidths=[]
+TableHeader="TargetExceptionDialog", SortCol="Name", SortOrder="ASCENDING", VisibleCols=["Name";"Value";"Address";"Description"], ColWidths=[200;100;100;366]
+WatchedExpression="throwhsm", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="data", DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="angularSpeed", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="unitree_state", DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="rmctl", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="caldata", DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="hDJI[2]", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="hDJI[3]", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="unitreeStartPos1", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="angle", DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="myMotor0", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="myMotor1", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="MyData", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="RxbufferFromUp", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="raw_lidar", RefreshRate=5, DisplayFormat=DISPLAY_FORMAT_HEX, Window=Watched Data 1
+WatchedExpression="hDJI[1]", RefreshRate=5, Window=Watched Data 1
