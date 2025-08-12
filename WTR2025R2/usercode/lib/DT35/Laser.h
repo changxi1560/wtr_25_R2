@@ -2,24 +2,24 @@
 #define _LASER_H
 
 #include "AllUserTask.h"
-// #include "circular_buffer.h"
+#include "circular_buffer.h"
 
-// #define LASER_DATA_UART_HANDLE huart2 // 串口选项
-// #define LASER_DATA_UART        USART2 // 串口选项
+#define LASER_DATA_UART_HANDLE huart2 // 串口选项
+#define LASER_DATA_UART        USART2 // 串口选项
 
-// #define FRAME_HEADER1 0xAA
-// #define FRAME_HEADER2 0xBB
-// #define FRAME_TAIL1   0xCC
-// #define FRAME_TAIL2   0xDD
+#define FRAME_HEADER1 0xAA
+#define FRAME_HEADER2 0xBB
+#define FRAME_TAIL1   0xCC
+#define FRAME_TAIL2   0xDD
 
-// extern uint8_t Laser_rev_byte;
-// extern uint8_t Laser_rev_buffer[24];
-// extern float Laser_x ;
-// extern float Laser_y ;
-// extern uint32_t Laser_rawdata[4];
+extern uint8_t Laser_rev_byte;
+extern uint8_t Laser_rev_buffer[24];
+extern float Laser_x ;
+extern float Laser_y ;
+extern uint32_t Laser_rawdata[4];
 
-// extern void Laser_rev_Init();
-// extern void Laser_Data_Decode();
-// extern void Laser_Buffer_Decode();
+extern void Laser_rev_Init();
+extern void Laser_Data_Decode();
+extern void Laser_Buffer_Decode();
 
 #endif 
